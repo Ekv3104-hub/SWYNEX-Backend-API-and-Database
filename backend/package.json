@@ -1,0 +1,19 @@
+{
+  "name": "foodqueue-backend-api-and-database",
+  "version": "1.0.0",
+  "description": "FoodQueue Task 2 backend API and SQLite persistence layer.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.1"
+  }
+}
